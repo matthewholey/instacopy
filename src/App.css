@@ -2,12 +2,15 @@
   text-align: center;
 }
 
+
 .Nav {
   position: fixed;
   z-index: 99;
   height: 52px;
   width: 100%;
   background-color: purple;
+  
+
 }
 
 .Feed {
@@ -21,9 +24,12 @@
 }
 
 .Sidebar {
+  right: 0;
+  top: 0;
+
   display: inline-block;
   position: fixed;
-  background-color: chartreuse;
+
   left: 674.5px;
   top: 78px;
   max-width: 293px;
@@ -32,7 +38,8 @@
 }
 
 .PhotoHeader {
-  height: 60px;
+  background-image: url(./img/userTiles.png);
+  height: 100px;
   padding: 0;
 }
 
@@ -73,20 +80,22 @@ p {
 
 .UserHeader {
   background-color: orange;
+  background-image: url(./img/UserTile.png);
   position: relative;
   top: 0;
-  height: 60px;
+  height: 100px;
 }
 
 .Stories {
-  background-color: red;
+  /* background-image: url(./img/story.png); */
   height: 240px;
   overflow: scroll;
 }
 
 .Sitemap {
-  background-color: teal;
-  height: 60px
+  background-image: url(./img/sitemap.png);
+  height: 60px;
+  display: inline-block;
 }
 
 i {
