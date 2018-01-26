@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.Nav {
+  background-color: purple;
+  height: 15%;
+}
+
+.Feed {
+  background-color: yellow;
+/*  position: relative;
+  left: 0;
+  top: 0;*/
+  width: 70%;
+  display: inline-block;
+}
+
+.Sidebar {
+  background-color: chartreuse;
+/*  position: relative;
+  right: 0;
+  top: 0;*/
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+}
+
+.PhotoHeader {
+  height: 60px;
+}
+
+.Comments {
+  background-color: hotpink;
+  height: 200px;
+}
+
+.Interaction {
+  background-color: limegreen;
+}
+
+.PhotoTile {
+  background-color: lavender;
+}
+
+.UserHeader {
+  background-color: orange;
+  position: relative;
+  top: 0;
+  height: 60px;
+}
+
+.Stories {
+  background-color: red;
+  height: 240px;
+}
+
+.Sitemap {
+  background-color: teal;
+  height: 60px
+}
+
+main {
+  width: 900px;
+  max-width: 100%;
+/*  position: absolute;*/
+}
+
+img {
+  width: 100%;
+}
