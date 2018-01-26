@@ -4,7 +4,7 @@ class UserHeader extends Component {
 	render() {
 		return (
 			<div className="UserHeader">
-				UserHeader
+				
 			</div>
 		);
 	}

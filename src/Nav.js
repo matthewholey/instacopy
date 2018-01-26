@@ -8,6 +8,7 @@ class Nav extends Component {
 				<i class="fa fa-user" aria-hidden="true"></i>
 				<i class="fa fa-heart" aria-hidden="true"></i>
 				<i class="fa fa-compass" aria-hidden="true"></i>
+
 			</nav>
 		)
 	}
