@@ -4,7 +4,9 @@ class Sitemap extends Component {
 	render() {
 		return (
 			<div className="Sitemap">
-				Sitemap
+				<ul>
+					<li>site</li>
+				</ul>
 			</div>
 
 		);

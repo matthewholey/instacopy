@@ -2,9 +2,22 @@
   text-align: center;
 }
 
-.Nav {
+Nav {
   background-color: purple;
   height: 15%;
+  display: flex;
+}
+.insta-icon{
+  flex:1
+}
+.icon-links {
+  flex: 3;
+  width: 50%;
+}
+
+.icon-links {
+  background: blue;
+  
 }
 
 .Feed {
@@ -68,7 +81,8 @@ p {
 
 .Sitemap {
   background-color: teal;
-  height: 60px
+  height: 60px;
+  display: inline-block;
 }
 
 i {

@@ -5,11 +5,8 @@ class PhotoHeader extends Component {
 		return (
 			<div className="PhotoHeader">
 				<img />
-				<p>
 					<strong>post.username</strong>
-				</p>
-				<br />
-				<p>city, state</p>
+				
 			</div>
 		);
 	}
