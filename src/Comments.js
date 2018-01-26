@@ -25,13 +25,13 @@ class Comments extends Component {
 							<li className="comment">
 								<span><strong>comment.username</strong></span> <span>Here is a comment</span>
 							</li>
-							<div className="comment">
+							<li className="comment">
 								<span><strong>comment.username</strong></span> <span>Here is a comment</span>
 							</li>
 							<li className="comment">
 								<span><strong>comment.username</strong></span> <span>Here is a comment</span>
 							</li>
-						<ul>
+						</ul>
 					</div>
 				</form>
 			</div>
