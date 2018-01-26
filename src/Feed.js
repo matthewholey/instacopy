@@ -7,6 +7,9 @@ class Feed extends Component {
 			<div className="Feed">
 				{/*logic here to render a list of phototiles*/}
 				<PhotoTile />
+				<PhotoTile />
+				<PhotoTile />
+				<PhotoTile />
 			</div>
 
 		);

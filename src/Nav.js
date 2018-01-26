@@ -4,7 +4,10 @@ class Nav extends Component {
 	render() {
 		return (
 			<nav>
-				<p>logo on left, search bar in middle, icons on right: explore, likes, profile</p>
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<i class="fa fa-heart" aria-hidden="true"></i>
+				<i class="fa fa-compass" aria-hidden="true"></i>
 			</nav>
 		)
 	}

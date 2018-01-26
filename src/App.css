@@ -24,11 +24,20 @@
   width: 30%;
   height: 100%;
   display: inline-block;
-  position: absolute;
+  position: fixed;
 }
 
 .PhotoHeader {
   height: 60px;
+  padding: 0;
+}
+
+strong {
+  line-height: 10px;
+}
+
+p {
+  line-height: 5px;
 }
 
 .Comments {
@@ -54,11 +63,17 @@
 .Stories {
   background-color: red;
   height: 240px;
+  overflow: scroll;
 }
 
 .Sitemap {
   background-color: teal;
   height: 60px
+}
+
+i {
+  height: 50px;
+  width:  50px;
 }
 
 main {
