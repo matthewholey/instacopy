@@ -17,19 +17,23 @@ class Comments extends Component {
 						</a>
 					</div>
 					<div className="likeCount">Like Count</div>
+					<div>
+						<ul>
+							<li className="comment">
+								<span><strong>comment.username</strong></span> <span>Here is a comment</span>
+							</li>
+							<li className="comment">
+								<span><strong>comment.username</strong></span> <span>Here is a comment</span>
+							</li>
+							<div className="comment">
+								<span><strong>comment.username</strong></span> <span>Here is a comment</span>
+							</li>
+							<li className="comment">
+								<span><strong>comment.username</strong></span> <span>Here is a comment</span>
+							</li>
+						<ul>
+					</div>
 				</form>
-				<div className="comment">
-					<span><strong>comment.username</strong></span> <span>Here is a comment</span>
-				</div>
-				<div className="comment">
-					<span><strong>comment.username</strong></span> <span>Here is a comment</span>
-				</div>
-				<div className="comment">
-					<span><strong>comment.username</strong></span> <span>Here is a comment</span>
-				</div>
-				<div className="comment">
-					<span><strong>comment.username</strong></span> <span>Here is a comment</span>
-				</div>
 			</div>
 		);
 	}
